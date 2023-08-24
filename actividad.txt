@@ -1,0 +1,21 @@
+¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?.
+    Los lenguajes de programación pueden estar más asociados con ciertos sistemas operativos debido a factores como la dependencia de la plataforma, las bibliotecas específicas del sistema, los compiladores y entornos de desarrollo adaptados, la historia de adopción, estándares y compatibilidad, así como consideraciones económicas y de recursos. Aunque en teoría se pueden utilizar en diferentes sistemas operativos, estas razones prácticas pueden limitar su compatibilidad y uso en sistemas específicos.
+
+¿Qué tipo de máquina virtual soporta virtualBox?. 
+    Algunos de los tipos de máquinas virtuales que VirtualBox soporta incluyen:
+  
+      x86 / x86_64 (32 y 64 bits): VirtualBox es compatible con la mayoría de las arquitecturas x86 y x86_64, lo que significa que puede ejecutar sistemas operativos diseñados para procesadores de 32 y 64 bits.
+  
+      Windows: Puedes ejecutar diversas versiones de sistemas operativos Windows, como Windows 10, Windows 8, Windows 7, etc., en máquinas virtuales con VirtualBox.
+  
+      Linux: VirtualBox es ampliamente utilizado para crear máquinas virtuales con varios sistemas operativos Linux, como Ubuntu, Fedora, CentOS, entre otros.
+  
+      macOS: Aunque con ciertas limitaciones y configuraciones específicas, es posible ejecutar macOS en una máquina virtual dentro de VirtualBox. Sin embargo, esta práctica puede estar sujeta a restricciones legales y técnicas.
+  
+      Otros sistemas operativos: VirtualBox también puede utilizarse para ejecutar otros sistemas operativos menos comunes, como BSD, Solaris u otros sistemas operativos basados en Unix.
+
+¿Qué función cumple el hypervisor en la virtualización?
+    El hypervisor es un componente esencial en la virtualización. Actúa como un gestor que permite ejecutar múltiples sistemas operativos y aplicaciones en un solo servidor físico. Hay dos tipos principales: Tipo 1 (directamente en hardware) y Tipo 2 (sobre un sistema operativo). Sus funciones clave incluyen el aislamiento de recursos, asignación eficiente de recursos, emulación de hardware y administración de migración y recuperación de fallos. En resumen, el hypervisor facilita la operación eficiente y segura de múltiples máquinas virtuales en una máquina física.
+
+Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?
+    En un entorno de virtualización, las máquinas virtuales están aisladas unas de otras a través de un hypervisor. Esto significa que si una máquina virtual se rompe o tiene problemas, generalmente no afectará a las demás máquinas virtuales. Cada máquina virtual tiene asignados recursos y espacio de memoria separados, lo que evita la interferencia entre ellas. Sin embargo, problemas graves o recursos excesivamente utilizados podrían tener un impacto indirecto. En general, el aislamiento brindado por el hypervisor protege la estabilidad y el rendimiento de las máquinas virtuales individuales.
